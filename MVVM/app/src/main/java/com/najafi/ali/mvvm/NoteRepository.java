@@ -51,7 +51,6 @@ public class NoteRepository {
         }
     }
 
-
     private static class UpdateNoteAsyncTask extends AsyncTask<Note, Void, Void> {
         private NoteDao noteDao;
 
