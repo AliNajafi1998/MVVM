@@ -9,13 +9,13 @@ public class Note {
     private int id;
 
     private String title;
-    private String descripiton;
+    private String description;
     private int priority;
 
 
-    public Note(String title, String descripiton, int priority) {
+    public Note(String title, String description, int priority) {
         this.title = title;
-        this.descripiton = descripiton;
+        this.description = description;
         this.priority = priority;
     }
 
@@ -31,8 +31,8 @@ public class Note {
         return title;
     }
 
-    public String getDescripiton() {
-        return descripiton;
+    public String getDescription() {
+        return description;
     }
 
     public int getPriority() {
